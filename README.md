@@ -106,3 +106,6 @@ sudo wget https://storage.googleapis.com/hands-on-cloudera/fraud_detection.csv
     ````
 53. Al ejecutar este comando la terminal mostrará una salida como la siguiente:
     ![](images/41.png)
+54. Finalmente podemos observar que los procesos consumidores de Kafka comienzan a recibir información.
+55. Al final de cada flujo se observa que hay procesos que depositan información uno lo deposita a hdfs y otro a un archivo local.
+56. Queda como ejercicio el ejecutar los demás procesadores en los flujos existentes y completar los flujos faltantes.
